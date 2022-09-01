@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="assignment2/image1.jpg" alt="image1" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assignment2/image2.jpg" alt="image2" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="assignment2/image3.jpg" alt="image3" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
